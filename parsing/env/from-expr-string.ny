@@ -1,0 +1,2 @@
+
+var s = $.piko["HOME"]

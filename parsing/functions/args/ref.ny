@@ -1,0 +1,6 @@
+
+
+func foo(out: ref)
+{
+}
+

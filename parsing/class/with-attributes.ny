@@ -1,0 +1,4 @@
+
+[[final,public]] class Foo
+{
+}

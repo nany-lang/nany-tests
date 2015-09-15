@@ -1,0 +1,3 @@
+
+[[test, public]] class Foo {}
+

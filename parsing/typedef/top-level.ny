@@ -1,0 +1,7 @@
+
+
+typedef T;
+
+func main
+{
+}
