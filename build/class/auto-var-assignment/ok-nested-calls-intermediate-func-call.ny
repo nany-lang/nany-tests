@@ -2,7 +2,7 @@ class B
 {
 	operator new {}
 	operator new (self ret) {}
-	var ret = 42;
+	var ret = 69;
 }
 
 
@@ -19,5 +19,5 @@ func foo(x) -> x;
 
 public func main: any
 {
-	return foo(new A(new B(69))).y.ret;
+	return foo(new A(new B(42))).y.ret;
 }
