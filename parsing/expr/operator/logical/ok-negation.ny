@@ -1,7 +1,7 @@
 
 func main: int
 {
-	var a = false
+	var a = false;
 	if not a then
-		return 0
+		return 0;
 }
