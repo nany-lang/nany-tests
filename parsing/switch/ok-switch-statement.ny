@@ -8,7 +8,9 @@ func main : int
 	{
 		case 3: { io.out << "Très poli" << io.eol; }
 		case 0: { io.out << "Pas poli du tout" << io.eol; }
-		default : { io.out << "Politesse moyenne" << io.eol; }
 	}
+	else
+		io.out << "Politesse moyenne" << io.eol;
+
 	return 0;
 }

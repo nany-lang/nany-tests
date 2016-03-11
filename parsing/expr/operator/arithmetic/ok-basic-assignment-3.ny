@@ -1,4 +1,7 @@
 
-func main(a,b) -> a = b
+func assign(a,b) -> a = b
 
-main(a: 10, b: 5
+public func main
+{
+	assign(a: 10, b: 5);
+)

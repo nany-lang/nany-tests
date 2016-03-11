@@ -1,8 +1,5 @@
 
+typedef A: B;
 
-class Bar = int
+typedef AnyName : any;
 
-class Foo
-{
-	func bar() {}
-}

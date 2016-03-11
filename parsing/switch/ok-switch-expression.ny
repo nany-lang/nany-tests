@@ -10,7 +10,7 @@ func main : int
 		case "Bonjour": 3;
 		case "Coucou": 2;
 		case "Salut": 1;
-		default: 0;
-	};
+	} else 0;
+
 	return politeness;
 }

@@ -7,6 +7,6 @@ func foo(i)
 
 func main
 {
-	foo(each in [0..6[);
+	foo(each in [:0..6:[);
 	return 0;
 }

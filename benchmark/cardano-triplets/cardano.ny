@@ -2,15 +2,15 @@
 
 func isCardanoTriplet(triplet): bool
 {
-	const bc = (float64) triplet.b * std.math.sqrt((float64) triplet.c);
-	const cardano = std.math.cbrt((float64) triplet.a + bc) + std.math.cbrt((float64) triplet.a - bc);
+	const bc: f64 = triplet.b * std.math.sqrt(triplet.c);
+	const cardano = std.math.cbrt(triplet.a + bc) + std.math.cbrt(triplet.a - bc);
 	// Floating point rounding errors…
 	return (cardano < 1.000001 && cardano > 0.999999);
 }
 
 
 // brute force example
-func howManyCardanoTriplets(limit): uint
+func howManyCardanoTriplets(limit): u32
 {
 	var count = 0;
 
@@ -34,7 +34,7 @@ func howManyCardanoTriplets(limit): uint
 }
 
 
-public func main: int
+public func main: i32
 {
 	howManyCardanoTriplets(1000);
 	return 0;

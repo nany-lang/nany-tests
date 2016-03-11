@@ -23,9 +23,8 @@ func main
 
 	// partitioning
 	var sum += switch (each in list).distance(a) on {
-		case [ 0 .. 3  [  : 1;
-		case [ 3 .. 10 ]  : 2;
-		default           : 0;
-	};
+		case [: 0 .. 3  :[  : 1;
+		case [: 3 .. 10 :]  : 2;
+	} else 0;
 	return 0;
 }
