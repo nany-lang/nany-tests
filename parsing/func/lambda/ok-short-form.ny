@@ -1,6 +1,6 @@
 
 func main
 {
-	var f = () -> false
+	var f = func -> false;
 	io.out << f() << io.eol;
 }

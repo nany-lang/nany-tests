@@ -1,3 +1,3 @@
 
-public func main -> "42".to<int>()
+public func main -> "42".to<:i32:>()
 

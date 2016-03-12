@@ -1,7 +1,7 @@
 // This test is a remix of the fibonacci test with threading added
 
 //! fibonacci (recursive way)
-immutable func fibonacci(n) : typeof(n)
+func fibonacci(n) : typeof(n)
 {
 	if n < 2 then
 		return n;

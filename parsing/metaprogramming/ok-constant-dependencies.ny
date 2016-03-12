@@ -1,5 +1,5 @@
 
-const bar = if nyo then "truc" else "muche";
+const bar = if nyo then "foo-text" else "bar-text";
 
 const nyo = false;
 
@@ -10,7 +10,6 @@ func foo(a: T, b: T)
 	var c = a + b;
 	return c;
 }
-
 
 
 func main
